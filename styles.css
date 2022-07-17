@@ -397,4 +397,8 @@ ul {
    #about {
     padding-left: 70px;
   }
+  
+  footer {
+    width: 100%;
+  }
 }
