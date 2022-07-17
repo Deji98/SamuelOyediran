@@ -65,10 +65,10 @@ main {
   position: static;
 }
 
-img {
+/* img {
   width: 250px;
   height: 50px;
-}
+} */
 
 .head-one h1 {
   text-shadow: 2px 2px 5px red;
