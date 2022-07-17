@@ -43,10 +43,31 @@ div.solid {
   /* position: absolute; */
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .head-one {
   float: left;
-  margin: 10%;
+  margin: 15%;
   transform: translate(-50px, -50px);
+}
+
+.head-two {
+  float: right;
+  top: 0px;
+  position: static;
+}
+
+img {
+  width: 250px;
+  height: 50px;
 }
 
 .head-one h1 {
@@ -123,9 +144,9 @@ ul {
 .container {
   display: flex;
   flex-direction: row;
-  margin-top: 90%;
+  /* margin-top: 90%; */
   position: absolute;
-  padding-top: 10em;
+  padding-top: 5em;
   padding-left: 130px;
 }
 
@@ -233,7 +254,7 @@ ul {
 }
 
 .text2 {
-  padding-top: 112em;
+  padding-top: 30em;
   padding-left: 600px;
   font-family: monospace;
   font-size: larger;
@@ -329,7 +350,7 @@ ul {
     text-align: center;
     justify-content: center;
     margin-top: 10%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-left: 10px;
     gap: 10px;
   }
@@ -337,17 +358,20 @@ ul {
   .container {
     display: flex;
     flex-direction: column;
-    margin-top: 270%;
+    /* margin-top: 270%; */
     position: absolute;
-    padding-top: 10em;
+    /* padding-top: 10em; */
     padding-left: 130px;
   }
 
   .text2 {
-    padding-top: 150em;
-    padding-left: 400px;
+    /* padding-top: 150em; */
+    padding-left: 100px;
+    padding-top: 35em;
     font-family: monospace;
     font-size: larger;
     width: 100%;
+    text-align: center;
+    justify-content: center;
   }
 }
