@@ -55,7 +55,7 @@ main {
 
 .head-one {
   float: left;
-  margin: 15%;
+  margin: 10%;
   transform: translate(-50px, -50px);
 }
 
@@ -353,6 +353,20 @@ ul {
     /* padding-top: 50px; */
     padding-left: 10px;
     gap: 10px;
+  }
+  
+  .head-one {
+    float: left;
+    padding-left: 20px;
+    margin: 15%;
+    transform: translate(-50px, -50px);
+  }
+  
+  .text {
+    padding-left: 200px;
+    /* padding-top: 80em; */
+    font-family: monospace;
+    font-size: larger;
   }
 
   .container {
