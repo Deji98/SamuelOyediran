@@ -398,7 +398,14 @@ ul {
     padding-left: 70px;
   }
   
-  footer {
+   .footer-four {
+    justify-content: center;
+    text-align: center;
+    background-color: #80cbc4;
+    border: 15px solid transparent;
+    border-radius: 10px;
+    /* box-shadow: #80cbc4 10px 50px; */
     width: 100%;
+    margin: 10%;
   }
 }
