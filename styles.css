@@ -8,7 +8,7 @@
 body {
   background-color: #6bb4bd;
   background-image: url(/images/desktop.png);
-  overflow-x: hidden;
+/*   overflow-x: hidden; */
 }
 
 .dds {
@@ -356,7 +356,7 @@ ul {
   }
   
   img {
-    width: 100%;
+/*     width: 150%; */
     height: 70vh;
   }
   
