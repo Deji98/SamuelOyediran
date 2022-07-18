@@ -11,6 +11,10 @@ body {
   /* overflow-x: hidden; */
 }
 
+.pic{
+  margin: 5%;
+}
+
 .dds {
   color: red;
 }
@@ -348,8 +352,8 @@ ul {
 @media screen and (min-width: 300px) and (max-width: 900px) {
 
   body {
-    background-color: #6bb4bd;
-    background-image: url(/images/mobile.png);
+    background-color: #b9e5ea;
+    /* background-image: url(/images/mobile.png); */
   }
 
   .videos {
@@ -441,6 +445,11 @@ ul {
   width: 300px;
   height: 10px;
   border-radius: 5px;
+}
+  
+ .pic{
+  margin: 5%;
+  width:50%;
 }
 
 
