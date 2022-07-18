@@ -842,7 +842,8 @@ ul {
 
   .head-one {
     float: left;
-    padding-left: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
     margin: 15%;
     transform: translate(-50px, -50px);
   }
@@ -864,7 +865,7 @@ ul {
     
     position: absolute;
     
-    /* padding-left: 70px; */
+    padding-left: 70px;
     /* text-align: center;
     justify-content: center; */
   }
@@ -882,7 +883,7 @@ ul {
 
 
   #about {
-    /* padding-left: 70px; */
+    padding-left: 70px;
     text-align: center;
     justify-content: center;
   }
