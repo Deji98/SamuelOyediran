@@ -344,6 +344,12 @@ ul {
 }
 
 @media screen and (min-width: 300px) and (max-width: 900px) {
+  
+  body {
+  background-color: #6bb4bd;
+  background-image: url(/images/mobile.png);
+/*   overflow-x: hidden; */
+}
   .videos {
     display: flex;
     flex-direction: column;
