@@ -8,7 +8,7 @@
 body {
   background-color: #6bb4bd;
   background-image: url(/images/desktop.png);
-/*   overflow-x: hidden; */
+  /* overflow-x: hidden; */
 }
 
 .dds {
@@ -46,6 +46,7 @@ div.solid {
 header {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 main {
@@ -54,7 +55,7 @@ main {
 }
 
 .head-one {
-  float: left;
+  float: right;
   margin: 10%;
   transform: translate(-50px, -50px);
 }
@@ -97,9 +98,9 @@ main {
   cursor: pointer;
 }
 
-img {
+/* img {
   height: 90vh;
-}
+} */
 
 .head-two {
   float: right;
@@ -188,6 +189,7 @@ ul {
 .progress-bar6 {
   background: #a3e8fd;
   width: 400px;
+  
   height: 10px;
   border-radius: 5px;
 }
@@ -326,46 +328,47 @@ ul {
 
 @keyframes text {
   0% {
-    color: #3584c1;
+    /* color: #3584c1; */
     margin-bottom: -40px;
   }
 
   30% {
-    color: #4206db;
+    /* color: #4206db; */
     margin-bottom: -40px;
     letter-spacing: 8px;
   }
 
   85% {
-    color: #b811e7;
+    /* color: #b811e7; */
     margin-bottom: -40px;
     letter-spacing: 10px;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 900px) {
-  
+
   body {
-  background-color: #6bb4bd;
-  background-image: url(/images/mobile.png);
-/*   overflow-x: hidden; */
-}
+    background-color: #6bb4bd;
+    background-image: url(/images/mobile.png);
+  }
+
   .videos {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     margin-top: 10%;
-    /* padding-top: 50px; */
     padding-left: 10px;
     gap: 10px;
   }
 
-   img {
+
+  /* img {
     width: 200%;
     height: 70vh;
     padding-right: 200px;
-  }
+  } */
+
 
   .head-one {
     float: left;
@@ -373,6 +376,7 @@ ul {
     margin: 15%;
     transform: translate(-50px, -50px);
   }
+
 
   .text {
     padding-left: 50px;
@@ -382,6 +386,7 @@ ul {
     text-align: center;
     justify-content: center;
   }
+
 
   .container {
     display: flex;
@@ -403,14 +408,15 @@ ul {
     font-family: monospace;
     font-size: larger;
     width: 100%;
-    
   }
+
 
   #about {
     /* padding-left: 70px; */
     text-align: center;
     justify-content: center;
   }
+
 
   .footer-four {
     justify-content: center;
@@ -423,8 +429,9 @@ ul {
     margin: 10%;
     /* padding-left: 70px; */
   }
-  
-    .progress-bar,
+
+
+.progress-bar,
 .progress-bar2,
 .progress-bar3,
 .progress-bar4,
@@ -436,21 +443,23 @@ ul {
   border-radius: 5px;
 }
 
+
   @keyframes text {
     0% {
-      color: #3584c1;
+      /* color: #3584c1; */
       
     }
   
     30% {
-      color: #4206db;
+      /* color: #4206db; */
       
       letter-spacing: 5px;
     }
   
     85% {
-      color: #b811e7;
+      /* color: #b811e7; */
       
       letter-spacing: 5px;
     }
-  }
+
+}
