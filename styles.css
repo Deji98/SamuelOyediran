@@ -416,6 +416,18 @@ ul {
     margin: 10%;
     /* padding-left: 70px; */
   }
+  
+    .progress-bar,
+.progress-bar2,
+.progress-bar3,
+.progress-bar4,
+.progress-bar5,
+.progress-bar6 {
+  background: #a3e8fd;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px;
+}
 
   @keyframes text {
     0% {
