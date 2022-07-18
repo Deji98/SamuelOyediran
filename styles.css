@@ -355,9 +355,10 @@ ul {
     gap: 10px;
   }
 
-  img {
-    width: 120%;
+   img {
+    width: 190%;
     height: 70vh;
+    padding-right: 150px;
   }
 
   .head-one {
