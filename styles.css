@@ -312,7 +312,7 @@ ul {
   background-color: #80cbc4;
   border: 15px solid transparent;
   border-radius: 10px;
-  /* box-shadow: #80cbc4 10px 50px; */
+  box-shadow: black 10px 10px 50px;
   width: 85%;
   margin: 10%;
 }
