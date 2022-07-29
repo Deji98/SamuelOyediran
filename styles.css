@@ -624,6 +624,7 @@ ul {
 .progress-bar6 {
   background: white;
   width: 400px;
+  
   height: 10px;
   border-radius: 5px;
 }
